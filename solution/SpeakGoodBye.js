@@ -27,6 +27,11 @@
 (function(window){
   var speakWord = "Good Bye";
   function speak(name) {
+    //append as div to DOM
+    var div = document.createElement('div');
+    div.innerHTML = speakWord + " " + name;
+    window.document.body.appendChild(div);
+    //console log it
     console.log(speakWord + " " + name);
   }
   //pass functionality outside IIFE 

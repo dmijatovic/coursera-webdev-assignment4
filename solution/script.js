@@ -76,7 +76,7 @@ WARNING!!! WARNING!!!
         byeSpeaker(name);
     }else{
         //console.log("Other name:" + name);
-        helloSpeaker(name);
+        helloSpeaker.speak(name);
     }
   }
   //window.names = names;
